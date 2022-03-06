@@ -98,3 +98,36 @@
   color: #27ba9b;
   border-bottom: 1px solid #27ba9b;
 }
+
+.xtx-main-nav .search {
+  position: relative;
+  width: 172px;
+  height: 30px;
+  border-bottom: 2px solid  #e7e7e7;
+  margin-left: 82px;
+  margin-top: 24px;
+}
+
+.fdj {
+  position: absolute;
+  left: 2px;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  /* background-color: skyblue; */
+  background-image: url(../images/sprites.png);
+  background-position: -80px -70px;
+}
+
+.search input {
+  position: relative;
+  bottom: 5px;
+  margin-left: 31px;
+  background-color: transparent;
+  width: 80%;
+}
+
+.search input::placeholder {
+  font-size: 14px;
+  color: #ccc;
+}
