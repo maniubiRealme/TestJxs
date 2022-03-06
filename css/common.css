@@ -1,4 +1,3 @@
-
 /* 版心 */
 .w {
   width: 1240px;
@@ -74,4 +73,28 @@
 .xtx-main-nav h1 a img {
   width: 100%;
   height: 100%;
+}
+
+.xtx-main-nav nav li {
+  float: left;
+  height: 70px;
+  line-height: 70px;
+  margin-right: 48px;
+}
+
+.xtx-main-nav nav {
+  margin-left: 40px;
+}
+
+.xtx-main-nav nav li:last-child {
+  margin-right: 0;
+}
+
+.xtx-main-nav nav a {
+  padding-bottom: 7px;
+}
+
+.xtx-main-nav nav a:hover {
+  color: #27ba9b;
+  border-bottom: 1px solid #27ba9b;
 }
