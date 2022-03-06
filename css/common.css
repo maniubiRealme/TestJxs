@@ -37,3 +37,17 @@
   border-right: 0;
   padding-right: 0;
 }
+
+.xtx-shortcut span {
+  display: inline-block;
+  width: 11px;
+  height: 16px;
+  /* ps */
+  /* background-color: pink; */
+  background-image: url(../images/sprites.png);
+  background-position: -160px -70px;
+  /* 行内块元素 右侧的文字是基线对齐 */
+  vertical-align: middle;
+  margin-top: -4px;
+  margin-right: 8px;
+}
