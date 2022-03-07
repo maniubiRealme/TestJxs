@@ -180,3 +180,41 @@
   box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
   transform: translate3d(0, -2px, 0);
 }
+
+.xtx-goods .goods-hd {
+  height: 96px;
+  /* background-color: pink; */
+  line-height: 96px;
+}
+
+.xtx-goods .goods-hd h2 {
+  font-size: 29px;
+  color: #333;
+  font-weight: normal;
+}
+.xtx-goods .goods-hd li {
+  float: left;
+}
+
+.xtx-goods .goods-hd div {
+  width: 510px;
+}
+
+.xtx-goods .goods-hd li a {
+  margin-right: 7px;
+  padding: 2px 7px;
+  color: #333333;
+}
+.xtx-goods .goods-hd li a:hover {
+  background-color: #27ba9b;
+  color: #fff;
+}
+
+.xtx-goods .goods-hd a.fr {
+  color: #999;
+  font-size: 16px;
+}
+
+.xtx-goods .goods-hd a.fr span {
+  margin-left: 15px;
+}
