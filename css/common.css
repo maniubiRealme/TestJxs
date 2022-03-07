@@ -103,7 +103,7 @@
   position: relative;
   width: 172px;
   height: 30px;
-  border-bottom: 2px solid  #e7e7e7;
+  border-bottom: 2px solid #e7e7e7;
   margin-left: 74px;
   margin-top: 24px;
 }
@@ -148,9 +148,9 @@
   top: -5px;
   right: -12px;
   width: 20px;
-	height: 15px;
-	background-color: #e26237;
-	border-radius: 8px;
+  height: 15px;
+  background-color: #e26237;
+  border-radius: 8px;
   color: #fff;
   line-height: 15px;
   text-align: center;
@@ -181,10 +181,9 @@
 .footer .top li a {
   float: left;
   width: 93px;
-	height: 92px;
-	border: solid 1px #eeeeee;
+  height: 92px;
+  border: solid 1px #eeeeee;
 }
-
 
 .footer .top li .box {
   padding-left: 58px;
@@ -205,7 +204,7 @@
   width: 29px;
   height: 27px;
   /* background-color: pink; */
-  margin:22px auto 10px;
+  margin: 22px auto 10px;
 }
 
 .footer .top li .box a:first-child .icon {
@@ -224,4 +223,45 @@
 
 .footer .top li .box a:last-child:hover .icon {
   background-position: -300px -70px;
+}
+
+.footer .top .erweima {
+  width: 116px;
+  height: 116px;
+  background-image: url(../uploads/qrcode.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 105px 103px;
+  margin-right: 0 !important;
+}
+
+.footer .top .right {
+  padding-top: 13px;
+}
+
+.footer .top .right p {
+  margin-left: 26px;
+  font-size: 14px;
+  color: #999999;
+  line-height: 22px;
+}
+
+.footer .top button {
+  width: 103px;
+  height: 32px;
+  background-color: #27ba9b;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 22px;
+  margin-top: 18px;
+}
+
+.footer .top li:nth-child(3) {
+  border-right: 1px solid #f2f2f2;
+}
+
+.footer .top li:nth-child(3) .box {
+  padding-left: 30px;
 }
