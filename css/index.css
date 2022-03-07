@@ -218,3 +218,110 @@
 .xtx-goods .goods-hd a.fr span {
   margin-left: 15px;
 }
+
+.xtx-goods .goods-content {
+  height: 610px;
+  /* background-color: pink; */
+}
+.xtx-goods .goods-content .left {
+  width: 240px;
+  height: 100%;
+  background-color: skyblue;
+}
+.xtx-goods .goods-content .left a,
+.xtx-goods .goods-content .left img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.xtx-goods .goods-content .right {
+  width: 1000px;
+  height: 100%;
+  /* background-color: purple; */
+}
+
+.xtx-goods .goods-content .right li {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 242px;
+  height: 304px;
+  /* background-color: deeppink; */
+  margin-left: 8px;
+  margin-bottom: 2px;
+  /* 透明的边框 */
+  border: solid 2px transparent;
+  /* 过渡 */
+  transition: border 1s;
+}
+
+.xtx-goods .goods-content .right li .img-box {
+  margin: 0 auto;
+}
+
+.xtx-goods .goods-content .right li .img-box,
+.xtx-goods .goods-content .right li .img-box img {
+  /* text-align: center; */
+  width: 184px;
+  height: 184px;
+}
+
+.xtx-goods .text-box {
+  padding-left: 29px;
+  /* padding-right: 47px; */
+  font-size: 16px;
+  color: #333;
+}
+
+.xtx-goods .text-box h4 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #333;
+}
+
+.xtx-goods .text-box .price {
+  font-size: 22px;
+  color: #9a2e1f;
+  margin-top: 15px;
+}
+
+.xtx-goods .text-box .price em {
+  font-size: 17px;
+}
+
+.xtx-goods .bottom {
+  position: absolute;
+  bottom: -84px;
+  width: 100%;
+  height: 84px;
+  background-color: #27ba9b;
+  /* 过渡的属性 */
+  transition: bottom 1s;
+}
+
+.xtx-goods .goods-content li:hover .bottom {
+  bottom: 0;
+}
+
+.xtx-goods .goods-content li:hover {
+  border: 2px solid #27ba9b;
+}
+
+.xtx-goods .bottom p {
+  width: 125px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+}
+.xtx-goods .bottom p:first-child {
+  border-bottom: 1px solid #000;
+  font-size: 18px;
+  margin-top: 15px;
+  padding-bottom: 5px;
+}
+
+.xtx-goods .bottom p:last-child {
+  margin-top: 8px;
+}
