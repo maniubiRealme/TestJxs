@@ -295,7 +295,7 @@
 }
 
 .footer .bottom {
-  height: 200px;
+  height: 168px;
   background-color: #333;
 }
 
@@ -319,4 +319,25 @@
   font-size: 28px;
   color: #fff;
   margin-left: 19px;
+}
+
+.footer .bottom .w {
+  height: 100%;
+  /* background-color: pink; */
+  text-align: center;
+  padding-top: 40px;
+  font-size: 14px;
+  color: #999;
+}
+
+.footer .bottom .about {
+  margin-bottom: 18px;
+}
+
+.footer .bottom .about span {
+  margin: 0 8px;
+}
+
+.footer .bottom a {
+  color: #999;
 }
