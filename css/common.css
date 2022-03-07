@@ -161,14 +161,14 @@
   padding-top: 70px;
   height: 300px;
   /* ps */
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 .footer .top li {
   float: left;
   width: 25%;
   height: 190px;
-  background-color: skyblue;
+  /* background-color: skyblue; */
 }
 
 .footer .top li h2 {
@@ -264,4 +264,21 @@
 
 .footer .top li:nth-child(3) .box {
   padding-left: 30px;
+}
+
+
+.footer .top li:nth-child(4) div {
+  text-align: center;
+}
+
+.footer .top .tel {
+  margin-top: 58px;
+  font-size: 22px;
+  color: #666;
+}
+
+.footer .top .time {
+  font-size: 15px;
+  color: #999;
+  margin-top: 15px;
 }
