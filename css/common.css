@@ -282,3 +282,41 @@
   color: #999;
   margin-top: 15px;
 }
+
+.footer .center {
+  height: 175px;
+  background-color: #333;
+}
+
+.footer .center .w {
+  width: 1393px;
+  height: 100%;
+  border-bottom: 1px solid #fff;
+}
+
+.footer .bottom {
+  height: 200px;
+  background-color: #333;
+}
+
+.footer .center li {
+  float: left;
+  width: 33.33%;
+  height: 58px;
+  /* background-color: pink; */
+  margin-top: 58px;
+  padding-left: 135px;
+}
+
+.footer .center li .icon {
+  width: 58px;
+  height: 58px;
+  background-image: url(../images/sprites.png);
+}
+
+.footer .center li p {
+  line-height: 58px;
+  font-size: 28px;
+  color: #fff;
+  margin-left: 19px;
+}
